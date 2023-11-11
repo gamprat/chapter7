@@ -9,7 +9,7 @@ module.exports = withMT({
   theme: {
     extend: {},
     screens: {
-      mobile: "414px",
+      mobile: "300px",
       tablet: "800px",
       web: "1028px",
     },

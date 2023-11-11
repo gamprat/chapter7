@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ContohPage = () => {
   return (
-    <div className='flex flex-col p-5'>
+    <div className='hidden flex-col p-5 web:flex tablet:flex mobile:flex'>
         <div className='flex justify-center items-center text-white bg-[#EB3838] w-full h-[70px] web:w-full tablet:w-full mobile:w-[50%] web:ml-0 tablet:ml-0 mobile:ml-[50%]'>Merah</div>
         <div className='flex w-full h-screen web:flex-row tablet:flex-col mobile:flex-col'>
             <div className='flex justify-center items-center text-white bg-[#5C38EB] web:w-[40%] web:h-full web:flex tablet:hidden mobile:flex mobile:h-[50%]'>Ungu</div>
